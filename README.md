@@ -2,7 +2,7 @@
 
 These are my Cloudflare notes and documentation.
 
-* [API](./worker-scripts/README.md)
-* [D1 Database](./worker-scripts/README.md)
-* [Key Vault](./worker-scripts/README.md)
+* [API](./api/README.md)
+* [D1 Database](./d1-database/README.md)
+* [Key Vault](./key-vault/README.md)
 * [Worker Scripts](./worker-scripts/README.md)
