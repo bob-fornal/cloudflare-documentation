@@ -7,10 +7,31 @@
 
 ### Read Key-Value Pairs
 
+* [Bindings](#bindings)
 * [`get` single key](#function-get-single-key)
 * [`get` Map of key-value](#function-get-map-of-key-value)
 * [`getWithMetadata` single key](#function-getwithmetadata-single-key)
 * [`getWithMetadata` Map of key-object](#function-getwithmetadata-map-of-key-object)
+
+<hr/>
+
+#### Bindings
+
+KV bindings allow for communication between a Worker and a KV namespace.
+
+The name of a binding does not need to match the KV namespace's name. Instead, the binding should be a valid JavaScript identifier, because the identifier will exist as a global variable within a Worker.
+
+To bind the namespace to your Worker in the Cloudflare dashboard:
+
+1. Log in to the Cloudflare dashboard.
+2. Go to Workers & Pages.
+3. Select your Worker.
+4. Select Settings > Bindings.
+5. Select Add.
+6. Select KV Namespace.
+7. Enter your desired variable name (the name of the binding).
+8. Select the KV namespace you wish to bind the Worker to.
+9. Select Deploy.
 
 <hr/>
 
