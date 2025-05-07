@@ -30,6 +30,9 @@ env.NAMESPACE.get('first-key');
 
 > To get the value of an array of keys, call the `get()` method.
 
+> [!NOTE]
+> Max: 100 keys.
+
 ```javascript
 env.NAMESPACE.get(keys);
 env.NAMESPACE.get(['first-key', 'second-key'];
