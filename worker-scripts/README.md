@@ -2,6 +2,9 @@
 
 ## Key Vault
 
+> [!WARNING]  
+> Actions against the Key Vault via API incur a hit. Each account allows for 1,200 transactions per 5-minute window.
+
 ### Read Key-Value Pairs
 
 * [`get` single key](#function-get-single-key)
