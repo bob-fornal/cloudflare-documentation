@@ -11,7 +11,7 @@
 
 <hr/>
 
-#### Function: `.get` single key
+#### FUNCTION: `.get` single key
 
 > To get the value of a key, call the `get()` method. The key vault needs to be bound to the script via namespace.
 
@@ -25,7 +25,7 @@ env.NAMESPACE.get('first-key');
 
 <hr/>
 
-#### Function: `.get` Map of key-value
+#### FUNCTION: `.get` Map of key-value
 
 > To get the value of an array of keys, call the `get()` method.
 
@@ -39,7 +39,7 @@ env.NAMESPACE.get(['first-key', 'second-key'];
 
 <hr/>
 
-#### Function: `.getWithMetadata` single key
+#### FUNCTION: `.getWithMetadata` single key
 
 > To to get a single value along with its metadata, call the `getWithMetadata()` method.
 
@@ -53,7 +53,7 @@ env.NAMESPACE.getWithMetadata('first-key');
 
 <hr/>
 
-#### Function: `.getWithMetadata` Map of key-object
+#### FUNCTION: `.getWithMetadata` Map of key-object
 
 > To get the value of an array of keys, call the `getWithMetadata()` method.
 
