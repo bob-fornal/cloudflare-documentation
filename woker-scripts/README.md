@@ -2,12 +2,14 @@
 
 ## Key Vault
 
+### Read Key-Value Pairs
+
 * [`get` single key](#key-vault-get-single-key)
 * [`get` Map of key-value](#key-vault-get-map-of-key-value)
 * [`getWithMetadata` single key](#key-vault-getwithmetadata-single-key)
 * [`getWithMetadata` Map of key-object](#key-vault-getwithmetadata-map-of-key-object)
 
-### Key Vault (`.get` single key)
+#### Key Vault (`.get` single key)
 
 To get the value of a key, call the `get()` method. The key vault needs to be bound to the script via namespace.
 
@@ -20,7 +22,7 @@ The `get()` method returns a `promise`.
 
 The promise resolves to a string. If the key is not found, the promise will resolve with the literal value `null`.
 
-### Key Vault (`.get` Map of key-value)
+#### Key Vault (`.get` Map of key-value)
 
 To get the value of an array of keys, call the `get()` method.
 
@@ -33,7 +35,7 @@ The `get()` method returns a `promise`.
 
 The promise resolves to a Map of the key-value pairs found. Keys not found will have the literal value `null`.
 
-### Key Vault (`.getWithMetadata` single key)
+#### Key Vault (`.getWithMetadata` single key)
 
 To to get a single value along with its metadata, call the `getWithMetadata()` method.
 
@@ -46,7 +48,7 @@ The `getWithMetadata()` method returns a `promise`.
 
 The promise resolves to an object, `{ value: string, metadata: object }`. If the key is not found, the promise will resolve with the literal value `null`.
 
-### Key Vault (`.getWithMetadata` Map of key-object)
+#### Key Vault (`.getWithMetadata` Map of key-object)
 
 To get the value of an array of keys, call the `getWithMetadata()` method.
 
