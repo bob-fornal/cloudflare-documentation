@@ -21,7 +21,8 @@ env.NAMESPACE.get('first-key');
 ```
 
 * The `get()` method returns a `promise`.
-* The promise resolves to a string. If the key is not found, the promise will resolve with the literal value `null`.
+* The promise resolves to a string.
+* If the key is not found, the promise will resolve with the literal value `null`.
 
 <hr/>
 
@@ -35,7 +36,8 @@ env.NAMESPACE.get(['first-key', 'second-key'];
 ```
 
 * The `get()` method returns a `promise`.
-* The promise resolves to a Map of the key-value pairs found. Keys not found will have the literal value `null`.
+* The promise resolves to a Map of the key-value pairs found.
+* Keys not found will have the literal value `null`.
 
 <hr/>
 
@@ -49,7 +51,8 @@ env.NAMESPACE.getWithMetadata('first-key');
 ```
 
 * The `getWithMetadata()` method returns a `promise`.
-* The promise resolves to an object, `{ value: string, metadata: object }`. If the key is not found, the promise will resolve with the literal value `null`.
+* The promise resolves to an object, `{ value: string, metadata: object }`.
+* If the key is not found, the promise will resolve with the literal value `null`.
 
 <hr/>
 
@@ -63,4 +66,6 @@ env.NAMESPACE.getWithMetadata(['first-key', 'second-key'];
 ```
 
 * The `getWithMetadata()` method returns a `promise`.
-* The promise resolves to a Map of the key-object pairs (`{ value: string, metadata: object }`) found. Keys not found will have the literal value `null`.
+* The promise resolves to a Map of the key-object pairs (`{ value: string, metadata: object }`) found.
+* Keys not found will have the literal value `null`.
+
