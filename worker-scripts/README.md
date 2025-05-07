@@ -63,6 +63,9 @@ env.NAMESPACE.getWithMetadata('first-key');
 
 > To get the value of an array of keys, call the `getWithMetadata()` method.
 
+> [!NOTE]
+> Max: 100 keys.
+
 ```javascript
 env.NAMESPACE.getWithMetadata(keys);
 env.NAMESPACE.getWithMetadata(['first-key', 'second-key'];
